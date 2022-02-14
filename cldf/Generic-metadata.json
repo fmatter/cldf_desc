@@ -9,7 +9,14 @@
     "dc:identifier": "https://www.github.com/fmatter/cldf_desc",
     "dc:license": "CC-BY-SA",
     "dc:title": "Descriptive linguistics and CLDF",
+    "dcat:accessURL": "git@github.com:fmatter/cldf_desc",
     "prov:wasDerivedFrom": [
+        {
+            "rdf:about": "git@github.com:fmatter/cldf_desc",
+            "rdf:type": "prov:Entity",
+            "dc:created": "08b85c4",
+            "dc:title": "Repository"
+        },
         {
             "rdf:about": "https://github.com/glottolog/glottolog",
             "rdf:type": "prov:Entity",

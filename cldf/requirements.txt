@@ -32,7 +32,7 @@ pluggy==1.0.0
 purl==1.6
 py==1.10.0
 pybtex==0.24.0
-pycldf==1.25.1
+-e git+git@github.com:fmatter/pycldf.git@d869b5c80d7148cce4ec23c4bdfd555c7fe017f6#egg=pycldf
 pycountry==20.7.3
 pyglottolog==3.6.0
 pyparsing==2.4.7

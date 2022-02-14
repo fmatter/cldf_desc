@@ -1,6 +1,5 @@
 {
     "url": "morphemes.csv",
-    "dc:conformsTo": "etc/terms.rdf#MorphemeTable",
     "tableSchema": {
         "columns": [
             {

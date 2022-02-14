@@ -106,7 +106,6 @@
             "url": "forms.csv"
         },
         {
-            "dc:conformsTo": "etc/terms.rdf#MorphemeTable",
             "dc:extent": 2,
             "tableSchema": {
                 "columns": [
