@@ -13,6 +13,7 @@ class Dataset(BaseDataset):
     id = "cldf_desc"
 
     def cldf_specs(self):  # A dataset must declare all CLDF sets it creates.
+        return CLDFSpec(dir="./cldf", module="Generic", metadata_fname="metadata.json")
         return super().cldf_specs()
 
     def cmd_download(self, args):
@@ -41,9 +42,8 @@ class Dataset(BaseDataset):
         morphemes.drop(columns=["Allomorphs"], inplace=True)
         morphemes.rename(columns={"Meaning": "Parameter_ID", "Representation": "Form"}, inplace=True)
         morphemes["Language_ID"] = "tri"
-        spec = CLDFSpec(dir="cldf", module="Generic", metadata_fname="metadata.json")
 
-        with CLDFWriter(spec) as writer:
+        with CLDFWriter(self.cldf_specs) as writer:
             writer.cldf.add_component("FormTable")
             writer.cldf.add_component(
                 component=jsonlib.load("etc/MorphemeTable-metadata.json")
