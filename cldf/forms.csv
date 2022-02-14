@@ -1,8 +1,8 @@
 ID,Language_ID,Parameter_ID,Form,Segments,Comment,Source,Morpheme_ID,Analyzed_Word,Part_IDs
-go-1,tri,go,tən,,,,go,,
-go-2,tri,go,təə,,,,go,,
-go-3,tri,go,tə,,,,go,,
-go-4,tri,go,təmɨ,,,,go,,
-go-5,tri,go,h,,,,go,,
-vbzka-1,tri,VBZ.Privative,-ka,,,,vbzka,,
-undress,tri,undress,poka,,,,,po+ka,clothes+vbzka
+go-1,tri,go,tən,t   ə   n,,,go,,
+go-2,tri,go,təə,t   ə   ə,,,go,,
+go-3,tri,go,tə,t   ə,,,go,,
+go-4,tri,go,təmɨ,t   ə   m   ɨ,,,go,,
+go-5,tri,go,h,h,,,go,,
+vbzka-1,tri,VBZ.Privative,-ka,k   a,,,vbzka,,
+undress,tri,undress,poka,p   o   k   a,,,,po+ka,clothes+vbzka
