@@ -46,7 +46,8 @@ class Dataset(BaseDataset):
         morphemes["Language_ID"] = "tri"
 
         complex_forms.drop(columns=["POS"], inplace=True)
-        complex_forms.rename(columns={"Morphemes": "Part_IDs", "Form": "Analyzed_Word"}, inplace=True)
+        complex_forms["Language_ID"] = "tri"
+        complex_forms.rename(columns={"Meaning": "Parameter_ID", "Morphemes": "Part_IDs", "Form": "Analyzed_Word"}, inplace=True)
         complex_forms["Form"] = complex_forms["Analyzed_Word"].replace("+", "")
         for c in ["Analyzed_Word", "Part_IDs"]:
             complex_forms[c] = complex_forms[c].apply(lambda x: ch.split_cldf_row(x, sep="+"))
