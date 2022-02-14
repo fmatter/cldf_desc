@@ -43,7 +43,7 @@ class Dataset(BaseDataset):
         morphemes.rename(columns={"Meaning": "Parameter_ID", "Representation": "Form"}, inplace=True)
         morphemes["Language_ID"] = "tri"
 
-        with CLDFWriter(self.cldf_specs) as writer:
+        with CLDFWriter(self.cldf_specs()) as writer:
             writer.cldf.add_component("FormTable")
             writer.cldf.add_component(
                 component=jsonlib.load("etc/MorphemeTable-metadata.json")
