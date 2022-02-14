@@ -75,7 +75,7 @@ class Dataset(BaseDataset):
         complex_forms["Form"] = complex_forms["Analyzed_Word"].str.replace("+", "")
         for c in ["Analyzed_Word"]:
             complex_forms[c] = complex_forms[c].apply(
-                lambda x: ch.split_cldf_row(x, sep="-")
+                lambda x: ch.split_cldf_row(x, sep="+")
             )
         for c in ["Part_IDs"]:
             complex_forms[c] = complex_forms[c].apply(
