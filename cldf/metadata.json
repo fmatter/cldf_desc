@@ -14,7 +14,7 @@
         {
             "rdf:about": "git@github.com:fmatter/cldf_desc",
             "rdf:type": "prov:Entity",
-            "dc:created": "3c774dc",
+            "dc:created": "4fc59c8",
             "dc:title": "Repository"
         },
         {
