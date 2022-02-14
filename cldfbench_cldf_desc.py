@@ -78,9 +78,7 @@ class Dataset(BaseDataset):
                 lambda x: ch.split_cldf_row(x, sep="+")
             )
         complex_forms["Segments"] = complex_forms["Form"].apply(tokenize)
-        print(complex_forms)
-        print(allomorphs)
-
+        
         with CLDFWriter(self.cldf_specs()) as writer:
             writer.cldf.add_component("FormTable")
             writer.cldf.add_component(
@@ -109,6 +107,8 @@ class Dataset(BaseDataset):
                     "separator": "+",
                 },
             )
+            writer.cldf.remove_columns(
+                                       "FormTable", "Source")
             writer.cldf.add_foreign_key(
                 "FormTable", "Morpheme_ID", "morphemes.csv", "ID"
             )
