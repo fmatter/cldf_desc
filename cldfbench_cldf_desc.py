@@ -31,8 +31,10 @@ class Dataset(BaseDataset):
         >>> args.writer.objects['LanguageTable'].append(...)
         """
         morphemes = pd.read_csv("raw/morphemes.csv", keep_default_na=False)
-        lexemes = pd.read_csv("raw/lexemes.csv", keep_default_na=False)
+        complex_forms = pd.read_csv("raw/complex_forms.csv", keep_default_na=False)
         examples = pd.read_csv("raw/examples.csv", keep_default_na=False)
+
+
         allomorphs = []
         morphemes["Allomorphs"] = morphemes["Allomorphs"].map(ch.split_cldf_row)
         for i, morpheme in morphemes.iterrows():
@@ -42,6 +44,13 @@ class Dataset(BaseDataset):
         morphemes.drop(columns=["Allomorphs"], inplace=True)
         morphemes.rename(columns={"Meaning": "Parameter_ID", "Representation": "Form"}, inplace=True)
         morphemes["Language_ID"] = "tri"
+
+        complex_forms.drop(columns=["POS"], inplace=True)
+        complex_forms.rename(columns={"Morphemes": "Part_IDs", "Form": "Analyzed_Word"}, inplace=True)
+        complex_forms["Form"] = complex_forms["Analyzed_Word"].replace("+", "")
+        for c in ["Analyzed_Word", "Part_IDs"]:
+            complex_forms[c] = complex_forms[c].apply(lambda x: ch.split_cldf_row(x, sep="+"))
+        print(complex_forms)
 
         with CLDFWriter(self.cldf_specs()) as writer:
             writer.cldf.add_component("FormTable")
@@ -55,11 +64,29 @@ class Dataset(BaseDataset):
                 "required": False,
                 "dc:extent": "singlevalued",
                 "datatype": "string"
-            })
+            },
+            {
+                "name": "Analyzed_Word",
+                "required": False,
+                "dc:extent": "multivalued",
+                "datatype": "string",
+                "separator": "+"
+            },
+            {
+                "name": "Part_IDs",
+                "required": False,
+                "dc:extent": "multivalued",
+                "datatype": "string",
+                "separator": "+"
+            }
+            )
             writer.cldf.add_foreign_key("FormTable", "Morpheme_ID", "morphemes.csv", "ID")
+            writer.cldf.add_foreign_key("FormTable", "Part_IDs", "morphemes.csv", "ID")
 
             for i, morpheme in morphemes.iterrows():
                 writer.objects["morphemes.csv"].append(morpheme)
             for form in allomorphs:
+                writer.objects["FormTable"].append(form)
+            for i, form in complex_forms.iterrows():
                 writer.objects["FormTable"].append(form)
             writer.write()
