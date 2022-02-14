@@ -39,15 +39,6 @@
                 "required": false,
                 "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#comment",
                 "datatype": "string"
-            },
-            {
-                "name": "Source",
-                "required": false,
-                "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#source",
-                "datatype": {
-                    "base": "string"
-                },
-                "separator": ";"
             }
         ]
     }
