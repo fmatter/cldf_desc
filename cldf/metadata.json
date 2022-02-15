@@ -14,7 +14,7 @@
         {
             "rdf:about": "git@github.com:fmatter/cldf_desc",
             "rdf:type": "prov:Entity",
-            "dc:created": "6f5c974",
+            "dc:created": "6203d65",
             "dc:title": "Repository"
         },
         {
@@ -174,7 +174,10 @@
                         "name": "Comment"
                     },
                     {
+                        "dc:extent": "multivalued",
                         "datatype": "string",
+                        "required": false,
+                        "separator": "; ",
                         "name": "Morpheme_IDs"
                     }
                 ],

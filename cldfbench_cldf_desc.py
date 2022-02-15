@@ -127,7 +127,13 @@ class Dataset(BaseDataset):
             component=jsonlib.load("etc/MorphsetTable-metadata.json")
         )
         args.writer.cldf.remove_columns("FormTable", "Source", "Segments")
-        args.writer.cldf.add_columns("ExampleTable", "Morpheme_IDs")
+        args.writer.cldf.add_columns("ExampleTable", {
+                "name": "Morpheme_IDs",
+                "required": False,
+                "dc:extent": "multivalued",
+                "datatype": "string",
+                "separator": "; "
+            })
         args.writer.cldf.add_columns("FormTable", {
                 "name": "Morph_Segments",
                 "required": False,
@@ -154,6 +160,10 @@ class Dataset(BaseDataset):
         args.writer.cldf.add_foreign_key(
             "form_morphs.csv", "Morph_ID", "morphs.csv", "ID"
         )
+
+        examples["Analyzed_Word"] = examples["Analyzed_Word"].str.split("\t")
+        examples["Gloss"] = examples["Gloss"].str.split("\t")
+        examples["Morpheme_IDs"] = examples["Morpheme_IDs"].str.split("; ")
 
         for i, e in morph_links.iterrows():
             args.writer.objects["form_morphs.csv"].append(e)
