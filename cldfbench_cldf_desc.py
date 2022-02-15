@@ -164,7 +164,8 @@ class Dataset(BaseDataset):
         examples["Analyzed_Word"] = examples["Analyzed_Word"].str.split("\t")
         examples["Gloss"] = examples["Gloss"].str.split("\t")
         examples["Morpheme_IDs"] = examples["Morpheme_IDs"].str.split("; ")
-
+        morphs["Segments"] = morphs["Segments"].str.split(" ")
+        
         for i, e in morph_links.iterrows():
             args.writer.objects["form_morphs.csv"].append(e)
         for i, morpheme in morphemes.iterrows():
