@@ -8,7 +8,7 @@ property | value
 [dc:identifier](http://purl.org/dc/terms/identifier) | https://www.github.com/fmatter/cldf_desc
 [dc:license](http://purl.org/dc/terms/license) | CC-BY-SA
 [dcat:accessURL](http://www.w3.org/ns/dcat#accessURL) | git@github.com:fmatter/cldf_desc
-[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="git@github.com:fmatter/cldf_desc/tree/0c2ba9e">git@github.com:fmatter/cldf_desc 0c2ba9e</a></li><li><a href="https://github.com/glottolog/glottolog/tree/fd2a2fed71">Glottolog v4.4-35-gfd2a2fed71</a></li></ol>
+[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="git@github.com:fmatter/cldf_desc/tree/23b2706">git@github.com:fmatter/cldf_desc 23b2706</a></li><li><a href="https://github.com/glottolog/glottolog/tree/fd2a2fed71">Glottolog v4.4-35-gfd2a2fed71</a></li></ol>
 [prov:wasGeneratedBy](http://www.w3.org/ns/prov#wasGeneratedBy) | <ol><li><strong>python</strong>: 3.9.5</li><li><strong>python-packages</strong>: <a href="./requirements.txt">requirements.txt</a></li></ol>
 [rdf:ID](http://www.w3.org/1999/02/22-rdf-syntax-ns#ID) | cldf_desc
 [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | http://www.w3.org/ns/dcat#Distribution
@@ -30,8 +30,9 @@ Name/Property | Datatype | Description
 [Language_ID](http://cldf.clld.org/v1.0/terms.rdf#languageReference) | `string` | A reference to a language (or variety) the form belongs to
 [Parameter_ID](http://cldf.clld.org/v1.0/terms.rdf#parameterReference) | `string` | A reference to the meaning denoted by the form
 [Form](http://cldf.clld.org/v1.0/terms.rdf#form) | `string` | The written expression of the form. If possible the transcription system used for the written form should be described in CLDF metadata (e.g. via adding a common property `dc:conformsTo` to the column description using concept URLs of the GOLD Ontology (such as [phonemicRep](http://linguistics-ontology.org/gold/2010/phonemicRep) or [phoneticRep](http://linguistics-ontology.org/gold/2010/phoneticRep)) as values).
-[Segments](http://cldf.clld.org/v1.0/terms.rdf#segments) | list of `string` (separated by ` `) | 
 [Comment](http://cldf.clld.org/v1.0/terms.rdf#comment) | `string` | 
+`Morph_Segments` | list of `string` (separated by ` `) | 
+`Sound_Segments` | list of `string` (separated by ` `) | 
 
 ## <a name="table-examplescsv"></a>Table [examples.csv](./examples.csv)
 
@@ -53,7 +54,7 @@ Name/Property | Datatype | Description
 [Translated_Text](http://cldf.clld.org/v1.0/terms.rdf#translatedText) | `string` | The translation of the example text in a meta language
 [Meta_Language_ID](http://cldf.clld.org/v1.0/terms.rdf#metaLanguageReference) | `string` | References the language of the translated text
 [Comment](http://cldf.clld.org/v1.0/terms.rdf#comment) | `string` | 
-`Morpheme_IDs` | `string` | References [morphemes.csv::ID](#table-morphemescsv)
+`Morpheme_IDs` | list of `string` (separated by `; `) | References [morphemes.csv::ID](#table-morphemescsv)
 
 ## <a name="table-formmorphscsv"></a>Table [form_morphs.csv](./form_morphs.csv)
 
