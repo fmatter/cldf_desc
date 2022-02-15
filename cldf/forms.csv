@@ -1,4 +1,4 @@
-ID,Language_ID,Parameter_ID,Form,Segments,Comment
-undress,tri,undress,poka,,
-deknife,tri,deprive of knife,majaka,,
-defruit,tri,take fruit from,eperuka,,
+ID,Language_ID,Parameter_ID,Form,Comment,Morph_Segments,Sound_Segments
+undress,tri,undress,poka,,po ka,p o k a
+deknife,tri,deprive of knife,majaka,,maja ka,m a j a k a
+defruit,tri,take fruit from,eperuka,,eperu ka,e p e r u k a

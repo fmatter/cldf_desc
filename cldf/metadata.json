@@ -14,7 +14,7 @@
         {
             "rdf:about": "git@github.com:fmatter/cldf_desc",
             "rdf:type": "prov:Entity",
-            "dc:created": "0c2ba9e",
+            "dc:created": "6f5c974",
             "dc:title": "Repository"
         },
         {
@@ -78,18 +78,24 @@
                         "name": "Form"
                     },
                     {
-                        "dc:extent": "multivalued",
-                        "datatype": "string",
-                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#segments",
-                        "required": false,
-                        "separator": " ",
-                        "name": "Segments"
-                    },
-                    {
                         "datatype": "string",
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#comment",
                         "required": false,
                         "name": "Comment"
+                    },
+                    {
+                        "dc:extent": "multivalued",
+                        "datatype": "string",
+                        "required": false,
+                        "separator": " ",
+                        "name": "Morph_Segments"
+                    },
+                    {
+                        "dc:extent": "multivalued",
+                        "datatype": "string",
+                        "required": false,
+                        "separator": " ",
+                        "name": "Sound_Segments"
                     }
                 ],
                 "primaryKey": [
