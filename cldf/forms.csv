@@ -1,4 +1,134 @@
-ID,Language_ID,Parameter_ID,Form,Comment,Morph_Segments,Sound_Segments
-undress,tri,undress,poka,,po ka,p o k a
-deknife,tri,deprive of knife,majaka,,maja ka,m a j a k a
-defruit,tri,take fruit from,eperuka,,eperu ka,e p e r u k a
+ID,Language_ID,Parameter_ID,Form,Segments,Comment,Source,Root,Morph_Segments
+ser3inpx,tri,3InPx,serə,s e r ə,,SM-tri,serə,serə
+ponadir,tri,Dir,pona,p o n a,,SM-tri,pona,pona
+wene1sacomedpst,tri,1Sa-come-DPst,wəene,w + ə e + n e,,SM-tri,əe,w əe ne
+karaiwabrazilian,tri,Brazilian,karaiwa,k a r a i w a,,SM-tri,karaiwa,karaiwa
+nonoland,tri,land,nono,n o n o,,SM-tri,nono,nono
+atwhin,tri,wh.In,atɨ,a t ɨ,,SM-tri,atɨ,atɨ
+pabout,tri,about,pə,p ə,,SM-tri,pə,pə
+owanothing,tri,nothing,owa,o w a,,SM-tri,owa,owa
+sen3inpx,tri,3InPx,sen,s e n,,SM-tri,sen,sen
+poloc,tri,Loc,po,p o,,SM-tri,po,po
+jauhp1fatherinlaw,tri,1-father.in.law,jauhpɨ,j + a u h p ɨ,,SM-tri,auhpɨ,j auhpɨ
+teesepstsacoppst,tri,Pst-Sa-Cop-Pst,teese,t + 0 + e e + s e,,SM-tri,ee,t Ø ee se
+enkimanenkiman,tri,Enkiman,enkiman,e n k i m a n,,SM-tri,enkiman,enkiman
+suurinansurinam,tri,Surinam,suurinan,s u u r i n a n,,SM-tri,suurinan,suurinan
+jiwei1sacopg,tri,1-Sa-Cop-G,jiwei,j i + w + e i + 0,,SM-tri,ei,ji w ei Ø
+mahtaowhen,tri,when,mahtao,m a h t a o,,SM-tri,mahtao,mahtao
+ohkcomeimper,tri,come-Imper,ohkə,o h + k ə,,SM-tri,oh,oh kə
+nkan3sasaypresdbt,tri,3Sa-say-Pres-Dbt,nkan,n + k a + 0 + n,,SM-tri,ka,n ka Ø n
+w1,tri,1,wɨ,w ɨ,,SM-tri,wɨ,wɨ
+jato,tri,to,ja,j a,,SM-tri,ja,ja
+irmeso,tri,so,irəme,i r ə m e,,SM-tri,irəme,irəme
+we1sacomeipst,tri,1Sa-come-I.Pst,wəe,w + ə e + 0,,SM-tri,əe,w əe Ø
+ijomi3wordpsfx,tri,3-word-Psfx,ijomi,i + j o m i + 0,,SM-tri,jomi,i jomi Ø
+imoitoo3obeycirc,tri,3-obey-Circ,imoitoo,i + m o i + t o o,,SM-tri,moi,i moi too
+meess,tri,Ess,me,m e,,SM-tri,me,me
+kpewabut,tri,but,kəpəewa,k ə p ə e w a,,SM-tri,kəpəewa,kəpəewa
+ntn3sagoipst,tri,3Sa-go-I.Pst,nɨtən,n ɨ + t ə n + 0,,SM-tri,tən,nɨ tən Ø
+parpt,tri,Rpt,pa,p a,,SM-tri,pa,pa
+twrnootherent,tri,other-Ent,tɨwərəno,t ɨ w ə r ə + n o,,SM-tri,tɨwərə,tɨwərə no
+roidtf,tri,Idtf,ro,r o,,SM-tri,ro,ro
+tunariver,tri,river,tuna,t u n a,,SM-tri,tuna,tuna
+hkahdir,tri,Dir,hkah,h k a h,,SM-tri,hkah,hkah
+taanyonder,tri,yonder,taanə,t a a n ə,,SM-tri,taanə,taanə
+okomokokomoki,tri,Okomokï,okomokɨ,o k o m o k ɨ,,SM-tri,okomokɨ,okomokɨ
+taealon,tri,alon,tae,t a e,,SM-tri,tae,tae
+jiwehtoo1sacopcirc,tri,1-Sa-Cop-Circ,jiwehtoo,j i + w + e h + t o o,,SM-tri,eh,ji w eh too
+rkenonly,tri,only,rəken,r ə k e n,,SM-tri,rəken,rəken
+maattn,tri,Attn,ma,m a,,SM-tri,ma,ma
+jipata1villagepsfx,tri,1-village-Psfx,jipata,j i + p a t a + 0,,SM-tri,pata,ji pata Ø
+wrpbadthing,tri,bad.thing,wɨrɨpə,w ɨ r ɨ p ə,,SM-tri,wɨrɨpə,wɨrɨpə
+meekorobushnegro,tri,bush.negro,meekoro,m e e k o r o,,SM-tri,meekoro,meekoro
+patavillage,tri,village,pata,p a t a,,SM-tri,pata,pata
+thkrnmaepstattackpst,tri,Pst-attack-Pst,tɨhkərənmae,t ɨ + h k ə r ə n m a + e,,SM-tri,hkərənma,tɨ hkərənma e
+jaagt,tri,Agt,ja,j a,,SM-tri,ja,ja
+irnp3inanapst,tri,3InAna-Pst,irənpə,i r ə + n p ə,,SM-tri,irə,irə npə
+tewagoneg,tri,go-Neg,təewa,t ə + e w a,,SM-tri,tə,tə ewa
+twesepstsacomepst,tri,Pst-Sa-come-Pst,tɨwəese,t ɨ + w + ə e + s e,,SM-tri,əe,tɨ w əe se
+ttuntaepstarrivepst,tri,Pst-arrive-Pst,tɨtuntae,t ɨ + t u n t a + e,,SM-tri,tunta,tɨ tunta e
+ir3inana,tri,3InAna,irə,i r ə,,SM-tri,irə,irə
+maoattime,tri,at.time,mao,m a o,,SM-tri,mao,mao
+suratisoldier,tri,soldier,surati,s u r a t i,,SM-tri,surati,surati
+toncol,tri,Col,ton,t o n,,SM-tri,ton,ton
+tarnotiriyo,tri,Tiriyó,tarəno,t a r ə n o,,SM-tri,tarəno,tarəno
+jimoit1relativepsfx,tri,1-relative-Psfx,jimoitɨ,j i + m o i t ɨ + 0,,SM-tri,moitɨ,ji moitɨ Ø
+nr3anana,tri,3AnAna,nərə,n ə r ə,,SM-tri,nərə,nərə
+ridtf,tri,Idtf,rə,r ə,,SM-tri,rə,rə
+tpsepstcatchpst,tri,Pst-catch-Pst,təpəəse,t + ə p ə ə + s e,,SM-tri,əpəə,t əpəə se
+suratisurati,tri,Surati,surati,s u r a t i,,SM-tri,surati,surati
+tomocol,tri,Col,tomo,t o m o,,SM-tri,tomo,tomo
+tpitpijooseiterpstflounderpst,tri,Iter~Pst-flounder-Pst,tɨpi~tɨpijoose,t ɨ p i + t ɨ + p i j o o + s e,,SM-tri,pijoo,tɨpi tɨ pijoo se
+twsapkmaepstsabeinneedcty,tri,Pst-Sa-be.in.need-Cty,tɨwəəsapəkəmae,t ɨ + w + ə ə s a p ə k ə m a + e,,SM-tri,əəsapəkəma,tɨ w əəsapəkəma e
+martoo,tri,too,marə,m a r ə,,SM-tri,marə,marə
+apolike,tri,like,apo,a p o,,SM-tri,apo,apo
+jenuhtoponp1beborncircpst,tri,1-be.born-Circ-Pst,jenuhtoponpə,j + e n u h + t o p o + n p ə,,SM-tri,enuh,j enuh topo npə
+nai3sacop,tri,3Sa-Cop,nai,n + a i,,SM-tri,ai,n ai
+eekustream,tri,stream,eeku,e e k u,,SM-tri,eeku,eeku
+rntruly,tri,truly,rən,r ə n,,SM-tri,rən,rən
+kakaimkakaime,tri,Kakaimë,kakaimə,k a k a i m ə,,SM-tri,kakaimə,kakaimə
+parumaparuma,tri,Paruma,paruma,p a r u m a,,SM-tri,paruma,paruma
+jenuune1sobeborndpst,tri,1So-be.born-DPst,jenuune,j + e n u u + n e,,SM-tri,enuu,j enuu ne
+murechild,tri,child,mure,m u r e,,SM-tri,mure,mure
+jiwehtoponp1sacopcircpst,tri,1-Sa-Cop-Circ-Pst,jiwehtoponpə,j i + w + e h + t o p o + n p ə,,SM-tri,eh,ji w eh topo npə
+pahkofather1,tri,father-1,pahko,p a h + k o,,SM-tri,pah,pah ko
+trepsttakepst,tri,Pst-take-Pst,tərəe,t + ə r ə + e,,SM-tri,ərə,t ərə e
+twrnotherent,tri,other-Ent,tɨwərən,t ɨ w ə r ə + n,,SM-tri,tɨwərə,tɨwərə n
+tvvepatantepstsadetrplaceprovpst,tri,Pst-Sa-Detr-place-Prov-Pst,tVVepatantəe,t + VV + e + p a t a + n t ə + e,,SM-tri,pata,t VV e pata ntə e
+kutarentukutarentu,tri,Kutarentu,kutarentu,k u t a r e n t u,,SM-tri,kutarentu,kutarentu
+waanot,tri,not,waa,w a a,,SM-tri,waa,waa
+nei3sacopipst,tri,3Sa-Cop-I.Pst,nei,n + e i + 0,,SM-tri,ei,n ei Ø
+eka3namepsfx,tri,3-name-Psfx,eka,0 + e k a + 0,,SM-tri,eka,Ø eka Ø
+jurujuru,tri,Juru,juru,j u r u,,SM-tri,juru,juru
+pipikooldbrother1,tri,old.brother-1,pipiko,p i p i + k o,,SM-tri,pipi,pipi ko
+kawatekawate,tri,Kawate,kawate,k a w a t e,,SM-tri,kawate,kawate
+jarimikanenp1raiseapst,tri,1-raise-A-Pst,jarimikanenpə,j + a r i m i k a + n e + n p ə,,SM-tri,arimika,j arimika ne npə
+jarimika1oraisepsfx,tri,1O-raise-Psfx,jarimika,j + a r i m i k a + 0,,SM-tri,arimika,j arimika Ø
+nakaend,tri,end,naka,n a k a,,SM-tri,naka,naka
+pefrom,tri,from,pəe,p ə e,,SM-tri,pəe,pəe
+jar1otakeipst,tri,1O-take-I.Pst,jarə,j + a r ə + 0,,SM-tri,arə,j arə Ø
+aarenadownstream,tri,downstream,aarena,a a r e n a,,SM-tri,aarena,aarena
+jipatant1placeprovipst,tri,1-place-Prov-I.Pst,jipatantə,j i + p a t a + n t ə + 0,,SM-tri,pata,ji pata ntə Ø
+nkrstill,tri,still,nkərə,n k ə r ə,,SM-tri,nkərə,nkərə
+trepstmakepst,tri,Pst-make-Pst,tɨrəe,t ɨ + r ə + e,,SM-tri,rə,tɨ rə e
+ija3agt,tri,3-Agt,i:ja,i + � j a,,SM-tri,:ja,i :ja
+pataplace,tri,place,pata,p a t a,,SM-tri,pata,pata
+jar1takeipst,tri,1-take-I.Pst,jarə,j + a r ə + 0,,SM-tri,arə,j arə Ø
+krmukuyoungman,tri,young.man,kɨrɨmuku,k ɨ r ɨ m u k u,,SM-tri,kɨrɨmuku,kɨrɨmuku
+wei1sacopipst,tri,1Sa-Cop-I.Pst,wei,w + e i + 0,,SM-tri,ei,w ei Ø
+monobig,tri,big,mono,m o n o,,SM-tri,mono,mono
+krnmukuyoungman,tri,young.man,kɨrɨnmuku,k ɨ r ɨ n m u k u,,SM-tri,kɨrɨnmuku,kɨrɨnmuku
+iijeetaalot,tri,a.lot,iijeeta,i i j e e t a,,SM-tri,iijeeta,iijeeta
+aktclearipst,tri,clear-I.Pst,akətə,a k ə t ə + 0,,SM-tri,akətə,akətə Ø
+nakt3saclearipst,tri,3Sa-clear-I.Pst,nakətə,n + a k ə t ə + 0,,SM-tri,akətə,n akətə Ø
+jiphtane1sogetwifedpst,tri,1So-get.wife-DPst,jipɨhtane,j i + p ɨ h t a + n e,,SM-tri,pɨhta,ji pɨhta ne
+nono3landpsfx,tri,3-land-Psfx,nono,0 + n o n o + 0,,SM-tri,nono,Ø nono Ø
+ponlocent,tri,Loc-Ent,pon,p o + n,,SM-tri,po,po n
+keinst,tri,Inst,ke,k e,,SM-tri,ke,ke
+nonoearth,tri,earth,nono,n o n o,,SM-tri,nono,nono
+tvvtepstsagopst,tri,Pst-Sa-go-Pst,tɨVVtəe,t ɨ + VV + t ə + e,,SM-tri,tə,tɨ VV tə e
+wriwoman,tri,woman,wəri,w ə r i,,SM-tri,wəri,wəri
+wrimukuyoungwoman,tri,young.woman,wərimuku,w ə r i m u k u,,SM-tri,wərimuku,wərimuku
+sehkenequally,tri,equally,sehken,s e h k e n,,SM-tri,sehken,sehken
+tewaamane1sadetrmakedesiredpst,tri,1Sa-Detr-make.desire-DPst,təewaamane,t + ə + e w a a m a + n e,,SM-tri,ewaama,t ə ewaama ne
+wepekaane1aaskdpst,tri,1A-ask-DPst,wepekaane,w + e p e k a a + n e,,SM-tri,epekaa,w epekaa ne
+eet3uncle,tri,3-uncle,eetɨ,0 + e e t ɨ,,SM-tri,eetɨ,Ø eetɨ
+me3anpx,tri,3AnPx,məe,m ə e,,SM-tri,məe,məe
+sedesid,tri,Desid,se,s e,,SM-tri,se,se
+wae1sacopcty,tri,1Sa-Cop-Cty,wae,w + a + e,,SM-tri,a,w a e
+jip1wife,tri,1-wife,jipɨ,j i + p ɨ,,SM-tri,pɨ,ji pɨ
+wkane1sasaydpst,tri,1Sa-say-DPst,wɨkane,w ɨ + k a + n e,,SM-tri,ka,wɨ ka ne
+nekarama3aogiveipst,tri,3AO-give-I.Pst,nekarama,n + e k a r a m a + 0,,SM-tri,ekarama,n ekarama Ø
+penonpfromentpst,tri,from-Ent-Pst,pəenonpə,p ə e + n o + n p ə,,SM-tri,pəe,pəe no npə
+akresakalongtime,tri,long.time,akəresaka,a k ə r e s a k a,,SM-tri,akəresaka,akəresaka
+turudeath,tri,death?,turu,t u r u,,SM-tri,turu,turu
+irnehkafinally,tri,finally,irənehka,i r ə n e h k a,,SM-tri,irənehka,irənehka
+ameraarall,tri,all,ameraarə,a m e r a a r ə,,SM-tri,ameraarə,ameraarə
+wakenenegex,tri,Neg.Ex,wakene,w a k e n e,,SM-tri,wakene,wakene
+mankomother1,tri,mother-1,manko,m a n + k o,,SM-tri,man,man ko
+ameraareveryone,tri,everyone,ameraarə,a m e r a a r ə,,SM-tri,ameraarə,ameraarə
+twthkaepstsabeoverpst,tri,Pst-Sa-be.over-Pst,tɨwətɨhkae,t ɨ + w + ə t ɨ h k a + e,,SM-tri,ətɨhka,tɨ w ətɨhka e
+taealong,tri,along,tae,t a e,,SM-tri,tae,tae
+wtn1sagoipst,tri,1Sa-go-I.Pst,wɨtən,w ɨ + t ə n + 0,,SM-tri,tən,wɨ tən Ø
+iwihp3oldsisterppst,tri,3-old.sister-P.pst,iwəihpə,i + w ə i + h p ə,,SM-tri,wəi,i wəi hpə
+murenpchildpst,tri,child-Pst,murenpə,m u r e + n p ə,,SM-tri,mure,mure npə
